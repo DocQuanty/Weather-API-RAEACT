@@ -1,0 +1,29 @@
+.formWrapper {
+  .input {
+    padding: 10px 0px;
+    font-size: 18px;
+    background: #3f5efb;
+    border: none;
+    border-bottom: 3px solid rgb(93, 81, 207);
+    color: #fff;
+    &::placeholder {
+      font-size: 18px;
+      color: rgb(0, 21, 114);
+      text-align: left;
+      padding: 0;
+    }
+  }
+  button {
+    margin-left: 15px;
+    font-size: 15px;
+    border: 1px solid rgb(92, 92, 92);
+    background: rgba(63, 94, 251, 1);
+    padding: 12px 30px;
+    border-radius: 10px;
+    &:hover {
+      background-color: rgb(212, 66, 212);
+      transition: background-color 0.5s ease 0s;
+      cursor: pointer;
+    }
+  }
+}

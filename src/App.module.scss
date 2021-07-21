@@ -1,0 +1,20 @@
+body {
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 15%,
+    rgba(182, 34, 210, 1) 65%,
+    rgba(86, 80, 176, 1) 90%
+  );
+}
+.wrapper_app {
+  opacity: 1;
+  margin: 0 auto;
+  margin-top: 200px;
+  max-width: 70%;
+  .rows {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
